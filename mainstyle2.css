@@ -35,6 +35,15 @@ h2{
 html{
     height: 100%;
 }
+
+#welcome {
+        font-size: 16pt;
+    font-family: 'Lato';
+    color: white;
+    background-color: rgba(0,0,0,.49);
+    padding: 10px;
+    
+}
 body{
     background-size: cover;
     height: 100%;
