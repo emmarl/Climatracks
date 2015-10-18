@@ -14,7 +14,7 @@ jQuery(document).ready(function($) {
           success : function(parsed_json) {
           
           var weather = parsed_json['current_observation']['weather'];
-          alert(weather);
+          //alert(weather);
           var keyword = weather.toLowerCase();
           var genre = weather;
             if(keyword.search("thunderstorm") !== -1){
@@ -66,14 +66,14 @@ jQuery(document).ready(function($) {
             genre = "classical";
             //alert(keyword.search("Jurassic Park"));
           }
-          alert(genre);
+          //alert(genre);
           //alert(weather);
           SC.get('/tracks', {
             q: genre, bpm: {from: 0}
           }).then(function(tracks) {
             track = tracks[Math.floor((Math.random() * 10))].permalink_url;
             var duration = tracks[Math.floor((Math.random() * 10))].duration;
-            alert(duration);
+            //alert(duration);
             SC.oEmbed(track, {
                 auto_play: true,
                 maxwidth: '600%',

@@ -9,7 +9,6 @@ header{
     
 }
 header h1{
-	margin-left: 40%;
 }
 
 footer{
@@ -22,6 +21,7 @@ footer{
 h1{
 	font-size: 36pt;
     font-family: 'Lato';
+    margin-bottom: 4%;
 }
 
 h2{
@@ -29,9 +29,8 @@ h2{
     font-family: 'Lato';
 }
 
-header button{
-	margin-top: 4%;
-    margin-bottom: 4%;
+button{
+	margin-top: 3%;
     
 }
 nav{
