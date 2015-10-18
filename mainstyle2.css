@@ -8,8 +8,6 @@ header{
 	min-height: 500px;
     
 }
-header h1{
-}
 
 footer{
 	border-top: solid 3px #d87e28;
@@ -22,11 +20,25 @@ h1{
 	font-size: 36pt;
     font-family: 'Lato';
     margin-bottom: 4%;
+    color: white;
+    background-color: rgba(0,0,0,.49);
+    padding: 10px;
 }
 
 h2{
     font-size: 16pt;
     font-family: 'Lato';
+    color: white;
+    background-color: rgba(0,0,0,.49);
+    padding: 10px;
+}   
+html{
+    height: 100%;
+}
+body{
+    background-size: cover;
+    height: 100%;
+    background-repeat: no-repeat;
 }
 
 button{
@@ -52,18 +64,7 @@ body{
 }
 
 #HowToUse{
-	background-color: rgba(212,216,226,1);
-}
-
-#About{
-	background-color: rgba(163,173,193,1);
-}
-/*TAKE OUT LATER, JUST NEED FOR THE COLOR POTENTIALLY*/
-#AboutUs{
-	background-color: rgba(112,126,157,1);
-}
-
-section{
-	padding-top: 3em;
+	background-color: rgba(102,192,219,1);
+    
 }
 
