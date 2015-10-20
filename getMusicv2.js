@@ -5,9 +5,9 @@ SC.initialize({
 
 jQuery(document).ready(function($) {
 
-  $.get("http://ipinfo.io", function (response) {
-      var city = response.city;
-      var state = response.region;
+  $.get("http://api.ipinfodb.com/v3/ip-city/?key=3195031531afca0af54214e7927e1c73b4d723ec9b6b8a7fd2722a8cc92dc58e&format=json", function (response) {
+      var city = response.cityName;
+      var state = response.regionName;
       $.ajax({
           url : "http://api.wunderground.com/api/b0a8fa82d88c7a78/geolookup/conditions/q/" + state + "/" + city + ".json",
           dataType : "jsonp",
