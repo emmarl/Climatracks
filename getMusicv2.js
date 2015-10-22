@@ -14,7 +14,7 @@ jQuery(document).ready(function($) {
           success : function(parsed_json) {
           
           var weather = parsed_json['current_observation']['weather'];
-          document.getElementById("welcome").innerHTML = "You're listening in " + city + "," + state + ", and the weather is currently " + weather + ". Refresh the browser to get a new song!";
+          document.getElementById("welcome").innerHTML = "You're listening in " + city + ", " + state + ", and the weather is currently " + weather + ". Refresh the browser to get a new song!";
           //alert(weather);
           var keyword = weather.toLowerCase();
           var genre = weather;
